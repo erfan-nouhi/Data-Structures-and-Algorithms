@@ -11,7 +11,6 @@ def bubble_sort_one(arr):
                 arr[j+1] = arr[j]
                 arr[j] = tmp
 
-array = [12,34,4,5,34,567,45]
 
 def bubble_sort_two(arr):
     length = len(arr)
@@ -23,7 +22,7 @@ def bubble_sort_two(arr):
                 arr[j+1] = arr[j]
                 arr[j] = tmp
 
-arr = [12,34,354,25,3235,6,5,34]
+
 
 def bubble_sort_three(arr):
     length = len(arr)
@@ -33,6 +32,8 @@ def bubble_sort_three(arr):
                 tmp = arr[j+1]
                 arr[j+1] = arr[j]
                 arr[j] = tmp
+
+arr = [12,34,354,25,3235,6,5,34]
 print(arr)
 bubble_sort_three(arr)
 print(arr)

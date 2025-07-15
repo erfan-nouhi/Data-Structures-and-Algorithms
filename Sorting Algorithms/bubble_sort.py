@@ -25,7 +25,7 @@ def bubble_sort_two(arr):
 
 arr = [12,34,354,25,3235,6,5,34]
 
-def bubble_sort_Three(arr):
+def bubble_sort_three(arr):
     length = len(arr)
     for i in range(length-1):#enough to sort array with this length
         for j in range(length-1-i):#each time the the largest at traversing bubbles up so less cycles
@@ -34,5 +34,5 @@ def bubble_sort_Three(arr):
                 arr[j+1] = arr[j]
                 arr[j] = tmp
 print(arr)
-bubble_sort_two(arr)
+bubble_sort_three(arr)
 print(arr)
